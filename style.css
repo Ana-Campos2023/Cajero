@@ -4,6 +4,9 @@ margin: 0%;
 header{
     background-color: rgb(200, 20, 120);
     height: 15vh;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
 }
 main{
     background-color: #f39ac6;
@@ -16,26 +19,33 @@ main{
     font-size: 5vh;
 
 } 
-input{
+label{
+    display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
-    text-align: center;
-    color: rgb(200, 20, 120);
+   align-items: center;
+    border-radius: 3vh;
+    height: 7vh;
+    width: 50vh;
     background-color: rgb(240, 204, 221);
-    width: 45vh;
+}
+input{
+    color: rgb(200, 20, 120);
+    width: 40vh;
     height: 5vh;
+    background-color:  rgb(240, 204, 221);
+    text-align: center;
     border: none;
-    border-radius: 2vh;
 }
 #inicio{
     width: 20vh;
     height: 4vh;
-    background-color: rgb(200, 20, 120);
-    font-size: 3vh;
-    border: none;
 }
 footer{
     background-color: rgb(200, 20, 120);
     height: 15vh;
+    flex-flow: row nowrap;
+    align-items: center;
 }
 h2{
     color: rgb(245, 190, 217);
@@ -45,6 +55,9 @@ h2{
 }
 button{
     color: rgb(245, 190, 217);
+    background-color: rgb(200, 20, 120);
+    font-size: 3vh;
+    border: none;
 }
 footer section{
     color: rgb(245, 190, 217);
@@ -52,3 +65,27 @@ footer section{
     text-align: right;
     padding: 0.5vh;
 }
+.cuenta{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cuenta section:nth-of-type(1){
+    display: flex;
+    flex-flow: column wrap;
+    text-align: start;
+}
+.cuenta section button{
+    width: 70vh;
+    height: 12vh;
+    margin: 4vh 0;
+    font-size: 7vh;
+}
+.cuenta section:nth-of-type(2){
+    display: flex;
+    flex-flow: column wrap;
+    align-items: end;
+}
+.b1 button{
+    text-align: start;
+}
+.b2 button{ text-align: end;}
