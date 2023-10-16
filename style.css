@@ -1,0 +1,54 @@
+*{
+margin: 0%;
+}
+header{
+    background-color: rgb(200, 20, 120);
+    height: 15vh;
+}
+main{
+    background-color: #f39ac6;
+    height: 70vh;
+    color: rgb(200, 20, 120);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+
+} 
+input{
+    justify-content: center;
+    text-align: center;
+    color: rgb(200, 20, 120);
+    background-color: rgb(240, 204, 221);
+    width: 45vh;
+    height: 5vh;
+    border: none;
+    border-radius: 2vh;
+}
+#inicio{
+    width: 20vh;
+    height: 4vh;
+    background-color: rgb(200, 20, 120);
+    font-size: 3vh;
+    border: none;
+}
+footer{
+    background-color: rgb(200, 20, 120);
+    height: 15vh;
+}
+h2{
+    color: rgb(245, 190, 217);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 9vh;
+   
+}
+button{
+    color: rgb(245, 190, 217);
+}
+footer section{
+    color: rgb(245, 190, 217);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding: 0.5vh;
+}
