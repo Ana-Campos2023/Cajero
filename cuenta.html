@@ -9,6 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <script defer src="index.js"></script>
+
+
 </head>
 <body>
     <header>
@@ -21,8 +24,8 @@
     <!-- ------------------------------------------------------------------- -->
     <main class="cuenta">
         <section class="b1">
-            <button>Deposito</button>
-            <button>Transferencia</button>
+            <button onclick="deposito()">Deposito</button>
+            <button onclick="tra()">Transferencia</button>
             <button>Retirar</button>
         </section>
         <section class="b2">
@@ -41,6 +44,71 @@
             © 2023 BBVANA México, Banco Ficticio como parte de proyecto para implementacion de javascript
         </section>
     </footer>
+<!-- __________________________________________DEPOSITOS__________________________________________________ -->
+    <header id="depo">
+        <header>
+            <h2>
+                <img id="logo" src="logo.png" alt="BBVA" height="60vh ">
+                BBVANA</h2>
+        </header>
+    </header>
+    <!-- ------------------------------------------------------------------- -->
+    <main class="deposito">
+     <section id="depositos">
+        <input placeholder="xxxx-xxxx-xxxx-xxxx">
+        <p>Numero de cuenta o targeta</p>
+        <br>
+        <input placeholder="$#####">
+        <p>Monto</p>
+        <br>
+     </section>
 
+        <button id="depositar" onclick="Depositar()">Depositar</button>
+
+    </main>
+        <!-- ------------------------------------------------------------------- -->
+    <footer>
+        <h2>
+            <img id="logo" src="logo.png" alt="BBVA" height="60vh">
+            BBVANA
+        </h2>
+        <section>
+            © 2023 BBVANA México, Banco Ficticio como parte de proyecto para implementacion de javascript
+        </section>
+    </footer>
+
+    <!-- ___________________________TRANSFERENCIAS_____________________________________________________________ -->
+    
+    <header id="trans">
+            <h2>
+                <img id="logo" src="logo.png" alt="BBVA" height="60vh ">
+                BBVANA</h2>
+    </header>
+    <!-- ------------------------------------------------------------------- -->
+    <main class="Transferencia">
+        <section id="transferencias">
+           <input placeholder="xxxx-xxxx-xxxx-xxxx">
+           <p>Numero de cuenta o targeta de BBVAANA</p>
+           <br>
+           <input placeholder="$#####">
+           <p>Monto</p>
+           <br>
+           <input placeholder="$#####">
+           <p>Concepto de transferencia</p>
+           <br>
+        </section>
+           <button>Depositar</button>
+   
+       </main>
+           <!-- ------------------------------------------------------------------- -->
+       <footer>
+           <h2>
+               <img id="logo" src="logo.png" alt="BBVA" height="60vh">
+               BBVANA
+           </h2>
+           <section>
+               © 2023 BBVANA México, Banco Ficticio como parte de proyecto para implementacion de javascript
+           </section>
+       </footer>
 </body>
 </html>

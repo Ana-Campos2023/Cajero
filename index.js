@@ -17,3 +17,17 @@ inicio.addEventListener('click', () =>{
     alert('Error: Usuario o contraseña incorrectos');
 });
 
+/* _______________________________________________________________________________ */
+function deposito(){
+    window.location.href="#depo"
+};
+function Depositar(){
+var depositos = document.getElementById("depositos");
+depositos.remove();
+var atras = document.getElementById("depositar");
+atras.textContent="Depostito realizado exitosamente!";
+};
+/* _______________________________________________________________________________ */
+function tra(){
+    window.location.href="#trans"
+};
