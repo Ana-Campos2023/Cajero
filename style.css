@@ -93,3 +93,14 @@ footer section{
     text-align: start;
 }
 .b2 button{ text-align: end;}
+.deposito{
+    height: 61vh;
+}
+aside{
+    display: block;
+    height: 5vh;
+    background-color: #f39ac6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    padding: 2vh;
+}
